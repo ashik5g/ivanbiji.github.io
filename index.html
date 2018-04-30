@@ -333,7 +333,12 @@ hr.style17 {
     border-bottom:2px dashed #00293c;
  
  }	  
-
+.custom-toggler.navbar-toggler {
+    border-color:rgba(241,243,206,1.00);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(241,243,206,1.00)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 	  
   </style>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
@@ -352,7 +357,7 @@ hr.style17 {
 </div>
 <nav class="navbar navbar-expand-lg sticky-top pane active navbar-dark navbar-custom">
   <a class="navbar-brand d-block d-lg-none button1 nav-link" href="#">HOME</a>
-  <button class="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="color: aliceblue;">
+  <button class="navbar-toggler pull-right custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="color: aliceblue;">
     <span class="navbar-toggler-icon"></span>
   </button>
   
@@ -477,8 +482,35 @@ Starting out as IEEE NITC SB's event to promote start up ideas, Interface has no
  		<i class="fas fa-comments fa-4x"></i>
  	</div>
  </div>
+  
+  
+    <div  style="padding:50px 0px ; background-color: white;">
+              
+     <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-black">Previous Sponsors</h2>
+            <hr class="style17">
+            
+            <div class="row">
+              <div class="col-sm-4"><img src="images/MakerVillage.png" height="120px" style="padding: 20px 10px;"></div>
+              <div class="col-sm-4"><img src="images/Kerala Startup Mission Logo.png" height="120px" style="padding: 10px 50px;"></div>
+              <div class="col-sm-4"><img src="images/TBINITC.png" height="120px" style="padding: 25px 0px;"></div>
+              <div class="col-sm-4"><img src="images/channeliamlogowite.png" height="120px" style="padding: 10px 10px;"></div>
+              <div class="col-sm-4"><img src="images/FABLAB KERALA - Trivandrum.png" height="120px" style="padding: 10px 10px;"></div>
+              
+              <div class="col-sm-4"><img src="images/logo_transparent.png" height="120px" style="padding: 10px 10px;"></div>
+              <div class="col-sm-6"><img src="images/Nasscom-logo.png" height="120px" style="padding: 46px 10px;"></div>
+              <div class="col-sm-6"><img src="images/IEEE_logo.png" height="120px" style="padding: 33px 10px;"></div>
+            	
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
    <div class="" style="background-color: white;">
-   <div class="container">
+   <div class="container ">
     <br>
       <h1 style="padding-top: 20px;" >Previous Year Lectures</h1>
 
@@ -756,14 +788,35 @@ Starting out as IEEE NITC SB's event to promote start up ideas, Interface has no
     </div>
     </div>
 
-      
-        <div class="row" style="background-color: #212529;">    
-        <div class="col-8 text-center container-fluid" style="color: ivory; padding: 30px 0px">Copyright © Interface 2018</div>  
-	     <div class="col-2 d-block d-lg-none container-fluid text-center" style="padding-top:6px; padding-left: 0px"><a class="nav-link active social2" href="#"><i class="fab fa-facebook-square fa-3x" ></i></a></div>
-	     <div class="col-2 d-block d-lg-none container-fluid text-center" style="padding-top: 6px; padding-left: 0px"><a class="nav-link active social2"  href="#"><i class="fab fa-twitter-square fa-3x"></i></a></div>
-	     
-           
-            
+      <hr style="border-top: 4px solid #212529" class="d-none d-md-block">
+        <div class="" style="background-color: #212529;">
+        <div class="container">
+        <div class="row">
+        <div class="text-center col-sm-4">   
+        <div class="text-left" style="color: ivory; padding-top: 15px;">Interface 2K18</div>
+        <div class="row text-left">  
+	     <span class="nav-link social2" onclick="location.href='#';" style="cursor:pointer;"><i class="fab fa-facebook-square fa-2x" ></i></span>
+	     <span class="nav-link social2" onclick="location.href='#';" style="cursor:pointer;"><i class="fab fa-twitter-square fa-2x"></i></span>    
+		</div>
+        <hr class="d-block d-md-none"  style="border-top: 2px solid #F1F3CE">
+        
+         </div> 
+         <div class="col-sm-4">
+         	<div class="text-left" style="color: ivory; padding-top: 10px;padding-left: 10px">Contact</div>
+			 <div class="row" style="font-size: 14px; color: ivory; padding-top: 10px;padding-left: 10px"><span><i class="fas fa-phone"></i>&nbsp;+922332323</span></div>
+             <div class="row" style=" font-size: 14px; color: ivory; padding-top: 10px;padding-left: 10px"><span><i class="fas fa-phone"></i>&nbsp;+922332323</span></div>
+             <div class="row" style="font-size: 14px;  color: ivory; padding-top: 10px;padding-left: 10px"><span><i class="far fa-envelope"></i>&nbsp;interface.tathva@tathva.org</span></div>
+             <hr style="border-top: 2px solid #212529" class="d-none d-md-block">
+             <hr class="d-block d-md-none" style="border-top: 2px solid #F1F3CE">
+         </div>
+         <div class="col-sm-4">
+           <br>
+         	<div class="text-left" style="color: ivory; padding-top: 10px;padding-left: 10px">Copyright © Interface 2018</div>
+         	
+         	<br>
+         </div>    
+          </div>  
+        </div>
         </div>
  
    
